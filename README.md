@@ -1,5 +1,7 @@
 # Radical.CQRS
 
+[![Build status](https://ci.appveyor.com/api/projects/status/40p01v7b5bkl54ji?svg=true)](https://ci.appveyor.com/project/radical-bot/radical-cqrs-server)
+
 We (@nazarenomanco and I) have a dream: allow everyone to use CQRS to implement better architectures.
 
 Radical.CQRS is our way to help people in the above direction.

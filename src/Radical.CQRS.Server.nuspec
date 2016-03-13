@@ -2,10 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>Radical.CQRS.Server</id>
-    <version>0.1.1-RC1</version>
+    <version>$version$</version>
     <authors>Mauro Servienti, Nazareno Manco</authors>
+    <owners>radical,mauroservienti</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Radical.CQRS is a small and simple toolkit to implement CQRS</description>
+    <projectUrl>https://github.com/RadicalFx/Radical.CQRS.Server</projectUrl>
+    <iconUrl>http://www.radicalframework.com/img/radical-ico.png</iconUrl>
     <tags>CQRS</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="6.0.8" />
@@ -25,6 +28,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\artifacts\debug\Radical.CQRS.Server\lib\" target="lib\" />
+    <file src="artifacts\$configuration$\Radical.CQRS.Server\lib\" target="lib\" />
   </files>
 </package>
